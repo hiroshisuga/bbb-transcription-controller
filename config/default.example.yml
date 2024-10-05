@@ -24,7 +24,7 @@ closeConnectionAfterSeconds: 10
 # in mhz
 # Valid values are '16' and '8', but 8 seems to be
 # too low to get accurate transcriptions
-sampleRate: '16'
+sampleRate: '32'
 
 # Each transcription server has its own config section
 # startMessage and endMessage are the messages sent whenever mod_audio_fork's
@@ -47,7 +47,7 @@ vosk:
 # the start/end messages right
 
 gladia:
-  startMessage: '{"x_gladia_key": "", "sample_rate": 32000, "bit_depth": 24, "model_type": "accurate", "endpointing": 300 }'
+  startMessage: '{"x_gladia_key": "", "sample_rate": 0, "bit_depth": 24, "model_type": "accurate", "endpointing": 300 }'
   endMessage: '{}'
   server: ws://localhost:8777
   proxy:
