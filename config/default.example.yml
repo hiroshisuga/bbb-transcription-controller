@@ -24,7 +24,7 @@ closeConnectionAfterSeconds: 10
 # in mhz
 # Valid values are '16' and '8', but 8 seems to be
 # too low to get accurate transcriptions
-sampleRate: '32'
+sampleRate: '16'
 
 # Each transcription server has its own config section
 # startMessage and endMessage are the messages sent whenever mod_audio_fork's
