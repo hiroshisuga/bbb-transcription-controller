@@ -47,8 +47,7 @@ vosk:
 # the start/end messages right
 
 gladia:
-  #startMessage: '{"x_gladia_key": "", "sample_rate": 0, "bit_depth": 16, "model_type": "accurate", "endpointing": 300, "audio_enhancer": true }'
-  startMessage: '{"x_gladia_key": "", "sample_rate": 0, "bit_depth": 16, "model_type": "accurate", "endpointing": 10 }'
+  startMessage: '{"x_gladia_key": "", "sample_rate": 0, "bit_depth": 16, "model_type": "accurate", "endpointing": 300, "audio_enhancer": true }'
   endMessage: '{}'
   server: ws://localhost:8777
   proxy:
